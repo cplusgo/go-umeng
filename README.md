@@ -1,7 +1,7 @@
 2017
 golang 友盟推送SDK
 
-#Android数据包格式
+#Android消息包格式
 `````
 {
   "appkey":"xx",          // 必填 应用唯一标识
