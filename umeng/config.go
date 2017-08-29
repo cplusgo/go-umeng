@@ -9,8 +9,6 @@ const (
 	UPLOAD_PATH = "/upload"
 	POST_PATH   = "/api/send"
 
-
-
 	ANDROID_APP_KEY           = "xxxx"
 	ANDROID_APP_MASTER_SECRET = "xxxx"
 
