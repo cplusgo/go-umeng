@@ -1,2 +1,2 @@
-# go-umeng
-golang版本友盟SDK
+2017
+golang 友盟推送SDK
