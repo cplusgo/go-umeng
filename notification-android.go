@@ -1,4 +1,4 @@
-package umeng
+package go_umeng
 
 type PayloadBodyAndroid struct {
 	Ticker      string `json:"ticker"`

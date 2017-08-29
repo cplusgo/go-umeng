@@ -1,4 +1,4 @@
-package helper
+package go_umeng
 
 import (
 	"crypto/md5"

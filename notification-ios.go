@@ -1,4 +1,4 @@
-package umeng
+package go_umeng
 
 type PayloadIOS struct {
 	Aps *PayloadIOSAps `json:"aps"`

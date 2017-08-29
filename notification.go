@@ -1,8 +1,7 @@
-package umeng
+package go_umeng
 
 import (
 	"encoding/json"
-	"github.com/cplusgo/go-umeng/helper"
 	"net/http"
 	"bytes"
 	"io/ioutil"
@@ -33,7 +32,7 @@ func (this *UmengNotification) send() error {
 		log.Println(err.Error())
 		return err
 	}
-	sign := helper.MD5("POST" + url + string(postBody) + this.appMasterSecret)
+	sign := MD5("POST" + url + string(postBody) + this.appMasterSecret)
 	url = url + "?sign=" + sign
 	bufReader := bytes.NewReader(postBody)
 	resp, err := http.Post(url, "application/json", bufReader)

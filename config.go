@@ -1,4 +1,4 @@
-package umeng
+package go_umeng
 
 /*
  *全局配置，方便起见在代码中配置，也可以写在配置表

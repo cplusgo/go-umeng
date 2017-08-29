@@ -1,4 +1,4 @@
-package umeng
+package go_umeng
 
 import (
 	"strconv"
